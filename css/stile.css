@@ -28,10 +28,36 @@ h2 {
     gap: 10px;
 }
 
+.img_illustrator {
+    position: relative;
+}
+
+
+.img_illustrator .testo {
+    position: absolute;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.821);
+    width: 100%;
+    
+}
+
+.img_illustrator p {
+    margin: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+    
+}
+
 .img_illustrator img {
 width: 100%;
 height: 100%;
 object-fit: cover;
+}
+
+.img_illustrator .select:hover {
+    border: 5px solid rgb(55, 55, 255);
+    box-sizing: border-box;
 }
 
 h1{
@@ -80,10 +106,16 @@ footer {
     color: black;
     max-width: 900px;
     margin: 0 auto;
-    justify-content: center;
+    justify-content: space-between;
     display: flex;
     padding: 20px;
+    align-items: center;
+}
 
+.lavora_con_noi p {
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
 }
 
 .contatti_info {
@@ -153,6 +185,11 @@ footer {
     margin-top: 0 auto;
 }
 
+.logo  {
+    text-transform: none;
+    text-decoration: none;
+    color: black;
+}
 
 .loghibrand {
     align-items: center;
